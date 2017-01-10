@@ -1,0 +1,46 @@
+ html, body, .container-table {
+    height: 100%;
+}
+
+@import url('https://fonts.googleapis.com/css?family=Roboto');
+@font-face {
+    font-family: 'Roboto';
+}
+
+h1 {
+    font-family: 'Roboto';
+    text-align: center;
+    text-shadow: 3px 3px 3px #aaa;
+
+}
+
+p{
+	font-family: 'Roboto';
+    text-align: center;
+    margin-top: 20px;
+}
+.fa-enlarge-hover:hover{
+	font-size: 5em;
+	color: #000000;
+}
+
+
+.container-table {
+    display: table;
+}
+
+.vertical-center-row {
+    display: table-cell;
+    vertical-align: middle;
+}
+
+#main{
+	height: 0;
+	width: 0;
+	opacity: 0;
+}
+
+.title{
+	text-align: center;
+}
+
